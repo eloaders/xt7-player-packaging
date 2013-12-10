@@ -1,0 +1,4 @@
+?package(xt7-player):needs="X11" section="Applications/Video"\
+title="xt7-player"\
+command="/usr/bin/xt7-player"\
+icon="/usr/share/pixmaps/xt7-player.png"
