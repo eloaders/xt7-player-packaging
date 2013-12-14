@@ -1,4 +1,4 @@
-xt7-player usr/bin
+xt7-player.gambas usr/bin
 xt7-player.png usr/share/pixmaps
-debian/xt7-player.desktop usr/share/applications
+xt7-player.desktop usr/share/applications
 

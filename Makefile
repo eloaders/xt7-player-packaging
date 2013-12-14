@@ -15,10 +15,10 @@ install:
 	mkdir -p $(DESTDIR)$(bindir)
 	mkdir -p $(DESTDIR)/usr/share/pixmaps/
 	mkdir -p $(DESTDIR)/usr/share/applications/
-	chmod +x xt7-player
-	install -m 0755 xt7-player $(DESTDIR)$(bindir)
+	chmod +x xt7-player.gambas
+	install -m 0755 xt7-player.gambas $(DESTDIR)$(bindir)
 	install -m 0755 xt7-player.png $(DESTDIR)/usr/share/pixmaps/
-	install -m 0755 debian/xt7-player.desktop $(DESTDIR)/usr/share/applications/
+	install -m 0755 xt7-player.desktop $(DESTDIR)/usr/share/applications/
 	
 uninstall:
 
