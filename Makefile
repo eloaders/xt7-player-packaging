@@ -4,7 +4,6 @@ bzr_revision =
 make:
 	/usr/bin/gbc3 -e -a -g -t -p -m  .
 	gba3 .
-	mv xt7-player.gambas xt7-player
 	
 clean:
 
