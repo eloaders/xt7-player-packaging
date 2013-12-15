@@ -4,7 +4,7 @@ bzr_revision =
 make:
 	/usr/bin/gbc3 -e -a -g -t -p -m  .
 	gba3 .
-	
+	mv *.gambas xt7-player.gambas
 clean:
 
 	rm -Rf `find . -name ".gambas"`
