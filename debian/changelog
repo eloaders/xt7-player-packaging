@@ -1,4 +1,4 @@
-xt7-player (3.5.2) stable; urgency=medium
+xt7-player (3.5.2.2) stable; urgency=medium
 
   * FIX: fixed ans simplified parsing of shoutcast feeds
 
